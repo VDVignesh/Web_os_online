@@ -1,0 +1,98 @@
+body{
+    background-image: url("background.png");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    margin: auto;
+    height: 40vw;
+    width: 40vw; 
+    background-size: 100%;
+}
+.taskbar {
+    width: 80%;
+    background-color: lightblue;
+    position: relative;
+    top: 999%;
+    border-radius: 40px;
+    position: relative;
+    left: -5%;
+    margin: auto;
+  }
+  .taskbar ul{
+    text-align: left;
+  }
+  .taskbar ul li{
+    list-style: none;
+    display: inline-block;
+  }
+  .taskbar ul li a {
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #faf600;
+    font-size: 45px;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    font-weight: 600;
+    padding: 25px; 
+    transition: all ease 0.5s;
+  }
+  .taskbar ul li a:hover{
+    background-color: #ffffff85;
+    border-radius: 40px;
+  }
+table ,th ,td {
+  border: 1px solid transparent;
+  font-size: 30;
+  text-decoration: none;
+  color: #fa0000;
+  font-family: sans-serif;
+  position: relative;
+  right: 57%;
+  border-radius: 40px;
+}
+table a {
+  font-size: 40px;
+  color: red;
+  font-family: sans-serif;
+}
+.taskbar ul li img{
+    width: 50px;
+    height: 50px;
+}
+
+.apps_pop_up{
+  width: 100%;
+  background-color: lightblue;
+  height: 55px;
+  border-radius: 40px;
+}
+.apps_pop_up button{
+  background-color: lightblue;
+  border-radius: 40px;
+  height: 45px;
+  width: 45px;
+  position: relative;
+  left: 1500%;
+}
+.apps_pop_up img{
+  height: 25px;
+  width: 25px;
+}
+label{
+  width: 50%;
+  border-radius: 40px;
+  border:1px solid transparent;
+  color: black;
+  font-size: 20px;
+  background-color: lightblue;
+  position: relative;
+  left: 525%;
+}
+.clock {
+  position: relative;
+  left: 420%;
+  color: black;
+  font-size: 20px;
+  letter-spacing: 5px;
+}

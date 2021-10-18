@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web os Welcome's user</title>
+    <link rel="icon" href="/os/assets_and_apps_/Web os logo.png">
+    <style>
+    *{
+        padding: 0;
+        margin: 0;
+        font-family: sans-serif;
+    }
+    body{
+        background-color: #000;
+    }
+    .welcome{
+        text-align: center;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        width: 100%;
+    }
+    .welcome span{
+        text-transform: uppercase;
+        display: block;
+    }
+    .text1{
+        color: white;
+        font-size: 60px;
+        font-weight: 700;
+        letter-spacing: 8px;
+        margin-bottom: 20px;
+        background-color: black;
+        position: relative;
+        animation: text 3s 1;
+    }
+    .text2 a{
+      font: 30px;
+      color: black;
+      text-decoration: none;
+      background-color: white;
+      border-radius: 40px;
+    }
+    .add1{
+        color: white;
+        font-size: 10px;
+        font-weight: 700;
+        letter-spacing: 8px;
+        margin-bottom: 20px;
+        background-color: black;
+        position: relative;
+        animation: text 3s 1;
+    }
+
+    @keyframes text{
+        0%{
+            color: black;
+            margin-bottom: -40px;
+        }
+        30%{
+            letter-spacing: 25px;
+            margin-bottom: -40px;
+        }
+        85%{
+            letter-spacing: 8px;
+            margin-bottom: -40px;
+        }
+    }
+    </style>
+</head>
+<body>
+   <div class="welcome">
+    <span class="text1">Welcome user to Web os</span>
+    <span class="add1">Made by VDVignesh</span>
+    <span class="text2"><a href="./apps/home.html">Click here to start</a></span>
+   </div> 
+</body>
+</html>
